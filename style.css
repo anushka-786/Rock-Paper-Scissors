@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body{
+    background-color: #CDC7E5;
+}
+h1{
+    background-color: #7776BC;
+    color: #183642;
+    height: 5rem;
+    line-height: 5rem;
+}
+
+
+.choice{
+    height: 165px ;
+    width: 165px ;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.choices{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 2rem;
+margin-top: 2rem;
+}
+
+.choice:hover{
+    opacity: 0.7;
+    cursor: pointer;
+    background-color: #73628A;
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    gap: 70px ;
+}
+
+#user-score, #comp-score{
+font-size: 4rem ;;
+}
+
+#msg{
+    background-color: #7776BC;
+    color: black;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.msg-container{
+    margin-top: 2rem;
+}
+
+#new-game, #best-of-five{
+    margin-top: 2rem;
+    padding: 0.8rem 1.6rem;
+    background-color: #7776BC;
+    color: black;
+    font-family: inherit;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+#new-game:hover, #best-of-five:hover{
+    opacity: 0.7;
+}
+
+#best-of-five{
+    display: block;
+    margin: 1rem auto 2rem;
+}
